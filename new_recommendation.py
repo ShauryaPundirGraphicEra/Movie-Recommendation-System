@@ -187,9 +187,7 @@ if "selected_movie" in st.session_state:
 # --------------------------
 # 5. UI: Search Results Page
 # --------------------------
-# --------------------------
-# 5. UI: Search Results Page
-# --------------------------
+ 
 if "search_results" in st.session_state:
     st.subheader("Search Results")
     results = st.session_state["search_results"]
@@ -210,4 +208,5 @@ if "search_results" in st.session_state:
                 st.write(f"**{row['title']}** ({row['release_date']})")
                 if st.button(f"See Details: {row['title']}", key=f"search_{row['id']}"):  # Line 208
                     st.session_state["selected_movie"] = row["id"]
+
                     st.rerun()

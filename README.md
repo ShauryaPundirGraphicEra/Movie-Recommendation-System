@@ -8,8 +8,8 @@
 ![Pandas](https://img.shields.io/badge/Data-Pandas-lightgrey)
 
 **Cine-Vector** is an AI-powered movie recommendation system that leverages Natural Language Processing (NLP) and Vector Search to deliver highly contextual movie suggestions. Moving beyond traditional collaborative filtering, this project utilizes **Sentence-Transformer embeddings** and **ChromaDB** to understand the deep semantic relationships between movie plots, genres, cast, and directors.
-
 ---
+<img width="2866" height="1686" alt="image" src="https://github.com/user-attachments/assets/5670dabc-0972-43c1-b8fb-00895fa8ce0a" />
 
 ## 📑 Table of Contents
 1. [Project Overview](#-project-overview)
@@ -130,15 +130,14 @@ When a user selects a movie they like, the system queries **ChromaDB**. The data
 ---
 
 ```
-
+DEMO Link:- https://youtu.be/5dlmTCzqOJM?si=5vc6mIyif6P7wHd8
 ```
 
 
-DEMO Link:- https://youtu.be/5dlmTCzqOJM?si=5vc6mIyif6P7wHd8
 
-Sample :-
 
-<img width="2866" height="1686" alt="image" src="https://github.com/user-attachments/assets/5670dabc-0972-43c1-b8fb-00895fa8ce0a" />
+
+
 
 
 
